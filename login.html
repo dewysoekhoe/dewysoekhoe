@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Account</title>
+    <link rel="stylesheet" href="style/account.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img alt="ns" src="./style/images/logo.svg"></a>
+      <a href="bookmark.html"><img alt="bookmark" src="./style/images/bookmark.png"></a>
+      <a href="login.html"><img alt="account" src="./style/images/account.svg"></a>
+      <a href="registreren.html">Registreren</a>
+    </nav>
+    <main>
+        <fieldset>
+          <legend>Inloggen</legend>
+            <label for="email">E-mailadres</label>
+              <input type="text" name="email" placeholder="dl.soekhoe@gmail.com" required>
+              <label for="password">Wachtwoord</label>
+              <input type="password" name="password" placeholder="********" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+              <h1>Wachtwoord vergeten?</h1>
+              <h1>Inloggen met Facebook</h1>
+              <h1>Registreren</h1>
+              <input type="submit" value="Log in">
+        </fieldset>
+    </main>
+  </body>
+</html>
+
+

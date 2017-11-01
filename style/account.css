@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+body {
+  background-image: url("baner_account.jpg");
+  font: 1em "ns_sans", "open sans" ,sans-serif;
+  margin: 0;
+  padding:0;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+
+h1 {
+  font-size: .875em;
+  color: #ffffff;
+  font-weight: inherit;
+  padding: 1em;
+  margin-left: -1em;
+  cursor: pointer;
+}
+
+main {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 0.875rem;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 19.5em;
+}
+
+nav {
+  background-color:#FFF;
+  height:3.25em;
+  opacity:0.98;
+  position:fixed;
+  width:100%;
+  z-index:1000;
+  }
+
+nav a:first-child {
+  margin:.1em 0 0 .5em;
+  position:absolute;
+  top: 1em;
+  left: .5em;
+  cursor: pointer;
+  }
+
+nav a:nth-child(2){
+    position: absolute;
+    right: 3.5em;
+    top: -.09em;
+    cursor: pointer;
+}
+
+nav a:nth-child(3){
+  margin:.1em 0 0 .5em;
+  position:absolute;
+  right:.7em;
+  top:.3em;
+  width:2.4rem;
+  cursor: pointer;
+}
+
+nav a:last-child {
+  margin:.1em 0 0 .5em;
+  color: #003082;
+  position:absolute;
+  right:7em;
+  top:.9em;
+  cursor: pointer;
+  text-decoration: none;
+ }
+
+nav img {
+  width: 3em;
+}
+
+legend {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+fieldset {
+  font-size: 1em;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 5em;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+fieldset input:last-child {
+  text-align: center;
+}
+
+input{
+  margin-top: 0.2em;
+  margin-bottom: 1.5em;
+}
+
+input[type="password"],
+input[type="text"] {
+  padding: 1.5em;
+  border: none;
+  width: 25em;
+}
+
+input[type="submit"] {
+  color: #FFFFFF;
+  background-color: #0077D6;
+  padding: .8em .8em;
+  padding-right: 2em;
+  padding-left: 2em;
+  margin-top: 2em;
+  line-height: 1.5em;
+  font-size: 1em;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  width: 19.2em;
+}
